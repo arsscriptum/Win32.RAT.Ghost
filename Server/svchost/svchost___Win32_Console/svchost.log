@@ -1,0 +1,91 @@
+﻿Build started 12/7/2021 10:58:45 PM.
+     1>Project "C:\PROJECTS\gh0st\Server\svchost\svchost.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory ".\svchost___Win32_Console\svchost.tlog\".
+       InitializeBuildStatus:
+         Creating ".\svchost___Win32_Console\svchost.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I../../common /Zi /nologo /W0 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\svchost___Win32_Console\\" /Fd".\svchost___Win32_Console\vc140.pdb" /FR".\svchost___Win32_Console\\" /Gd /TP /analyze- /errorReport:prompt ..\..\common\Audio.cpp common\AudioManager.cpp common\Buffer.cpp ClientSocket.cpp common\Dialupass.cpp common\FileManager.cpp common\install.cpp common\KernelManager.cpp common\KeyboardManager.cpp common\Manager.cpp common\RegEditEx.cpp common\ScreenManager.cpp common\ScreenSpy.cpp common\ShellManager.cpp svchost.cpp common\SystemManager.cpp common\until.cpp common\VideoCap.cpp common\VideoManager.cpp
+         Audio.cpp
+     1>..\..\common\Audio.cpp(155): error C2065: 'i': undeclared identifier
+     1>..\..\common\Audio.cpp(157): error C2065: 'i': undeclared identifier
+     1>..\..\common\Audio.cpp(157): error C2227: left of '->lpData' must point to class/struct/union/generic type
+     1>..\..\common\Audio.cpp(158): error C2065: 'i': undeclared identifier
+     1>..\..\common\Audio.cpp(158): error C2227: left of '->dwBufferLength' must point to class/struct/union/generic type
+     1>..\..\common\Audio.cpp(159): error C2065: 'i': undeclared identifier
+     1>..\..\common\Audio.cpp(159): error C2227: left of '->dwFlags' must point to class/struct/union/generic type
+     1>..\..\common\Audio.cpp(160): error C2065: 'i': undeclared identifier
+     1>..\..\common\Audio.cpp(160): error C2227: left of '->dwLoops' must point to class/struct/union/generic type
+     1>..\..\common\Audio.cpp(161): error C2065: 'i': undeclared identifier
+     1>..\..\common\Audio.cpp(161): error C2660: 'waveOutPrepareHeader': function does not take 2 arguments
+         AudioManager.cpp
+         Buffer.cpp
+         ClientSocket.cpp
+     1>ClientSocket.cpp(453): error C2065: 'i': undeclared identifier
+     1>ClientSocket.cpp(469): error C2065: 'i': undeclared identifier
+         Dialupass.cpp
+         FileManager.cpp
+     1>common\FileManager.cpp(202): error C2440: 'initializing': cannot convert from 'const char *' to 'char *'
+         common\FileManager.cpp(202): note: Conversion loses qualifiers
+     1>common\FileManager.cpp(294): error C2065: 'dwOffset': undeclared identifier
+         install.cpp
+         KernelManager.cpp
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(72): error C2065: 'i': undeclared identifier
+     1>c:\projects\gh0st\server\svchost\common\loop.h(160): error C2440: '=': cannot convert from 'const char *' to 'char *'
+         c:\projects\gh0st\server\svchost\common\loop.h(160): note: Conversion loses qualifiers
+         KeyboardManager.cpp
+         Manager.cpp
+         RegEditEx.cpp
+         ScreenManager.cpp
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(28): error C2065: 'IDC_HAND': undeclared identifier
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(59): error C2065: 'CURSORINFO': undeclared identifier
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(59): error C2146: syntax error: missing ';' before identifier 'ci'
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(59): error C2065: 'ci': undeclared identifier
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(60): error C2065: 'ci': undeclared identifier
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(60): error C2228: left of '.cbSize' must have class/struct/union
+         C:\PROJECTS\gh0st\common\CursorInfo.h(60): note: type is 'unknown-type'
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(60): error C2065: 'CURSORINFO': undeclared identifier
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(61): error C2065: 'ci': undeclared identifier
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(61): error C3861: 'GetCursorInfo': identifier not found
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(61): error C2228: left of '.flags' must have class/struct/union
+         C:\PROJECTS\gh0st\common\CursorInfo.h(61): note: type is 'unknown-type'
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(61): error C2065: 'CURSOR_SHOWING': undeclared identifier
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(67): error C2065: 'ci': undeclared identifier
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(67): error C2228: left of '.hCursor' must have class/struct/union
+         C:\PROJECTS\gh0st\common\CursorInfo.h(67): note: type is 'unknown-type'
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(70): error C2065: 'ci': undeclared identifier
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(70): error C2228: left of '.hCursor' must have class/struct/union
+         C:\PROJECTS\gh0st\common\CursorInfo.h(70): note: type is 'unknown-type'
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(72): error C2065: 'i': undeclared identifier
+     1>common\ScreenManager.cpp(7): fatal error C1083: Cannot open include file: 'winable.h': No such file or directory
+         ScreenSpy.cpp
+     1>C:\PROJECTS\gh0st\common\CursorInfo.h(72): error C2065: 'i': undeclared identifier
+     1>common\ScreenSpy.cpp(355): error C2062: type 'int' unexpected
+     1>common\ScreenSpy.cpp(355): error C2065: 'nToJump': undeclared identifier
+     1>common\ScreenSpy.cpp(355): error C2059: syntax error: ')'
+     1>common\ScreenSpy.cpp(357): error C2062: type 'int' unexpected
+     1>common\ScreenSpy.cpp(359): error C2065: 'nOther': undeclared identifier
+     1>common\ScreenSpy.cpp(360): error C2065: 'nToJump': undeclared identifier
+     1>common\ScreenSpy.cpp(362): error C2065: 'nToJump': undeclared identifier
+     1>common\ScreenSpy.cpp(362): error C2065: 'nOther': undeclared identifier
+     1>common\ScreenSpy.cpp(363): error C2065: 'nToJump': undeclared identifier
+     1>common\ScreenSpy.cpp(366): error C2059: syntax error: '}'
+     1>common\ScreenSpy.cpp(366): error C2143: syntax error: missing ';' before '}'
+     1>common\ScreenSpy.cpp(370): error C2143: syntax error: missing ';' before '{'
+     1>common\ScreenSpy.cpp(370): error C2447: '{': missing function header (old-style formal list?)
+         ShellManager.cpp
+         svchost.cpp
+         SystemManager.cpp
+     1>common\SystemManager.cpp(88): error C2065: 'i': undeclared identifier
+     1>common\SystemManager.cpp(91): error C2065: 'i': undeclared identifier
+         until.cpp
+         VideoCap.cpp
+     1>common\VideoCap.cpp(128): error C2065: 'i': undeclared identifier
+         VideoManager.cpp
+     1>common\VideoManager.cpp(123): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         Generating Code...
+     1>Done Building Project "C:\PROJECTS\gh0st\Server\svchost\svchost.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:41.58
